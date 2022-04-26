@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background:#1b1b1bd5;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 80%;
+    height: 2rem;
+}
+
+.loop{
+    color: white;
+}
+
+
+#divFin{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem
+}
+
+
+.btn{
+    position: absolute;
+    left: 17%;
+    height: 40px;
+    width: 45px;
+     margin-top: 1.5%;
+    font-size: 2rem;
+    cursor:pointer;
+    transition:left 0.4s ease;
+}

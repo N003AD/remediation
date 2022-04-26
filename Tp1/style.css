@@ -1,0 +1,91 @@
+body{
+    /* background-color: antiquewhite; */
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    max-width: 100%;
+    border-radius: 5px;
+    
+    margin: 0 auto;
+    width: 130vh;
+    height: 80vh;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background-color:rgb(18, 115, 226);
+}
+.centrer{
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    flex: 1;  
+}
+#center{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background-color: rgb(241, 237, 237);
+}
+.Success{
+    background-color: rgb(62, 238, 62);
+}
+.Danger{
+    background-color: red;
+}
+.Waming{
+    background-color: rgb(241, 201, 23);
+}
+.Info{
+    background-color: rgb(18, 115, 226);
+}
+button{
+    padding: 1%;
+    margin: 0.5%;
+    height: 30%;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+
+}
+ #notification{
+     display: flex;
+     flex: 2;
+     flex-direction: column;
+     /* border: solid 1px rgb(219, 113, 113); */
+ }
+ .flex{
+    height: 10vh;
+    display: flex;
+    margin: 3px;
+    /* background-color: rgb(56, 238, 56); */
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: end; 
+
+}
+.green{
+    background-color: green;
+}
+ #affiche_notification{
+     flex: 1;
+        display: flex;
+        flex-direction: column;
+       margin: 0px 0px  0px 10px ;
+     justify-content: flex-end;
+     border-radius: 5px;
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+     background-color: aliceblue;
+     /* border: solid 1px gray; */
+ }
+ #notif_button{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px rgb(44, 172, 119); */
+ }
+ #affiche_not{
+    flex: 2;
+    /* border: solid 1px rgb(110, 86, 216); */
+ }

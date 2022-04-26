@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js" integrity="sha512-Wkxbeuy81yHqZNrMurMURCOCMzkJqaFYnvToublHiOGoVXQ2DS1lOUjKwstbe0GwELrRb9sicdV2y6GiAnVxuw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header" id="header">
+            <input type="button" id="btnColonne" class="btn" value="Colonne">
+            <input type="button" id="btnNote" class="btn" value="Note">
+        </div>
+        <div class="centerSave">
+        <div class="save" id="save">  
+             <i class="fa-solid fa-message" id="message"></i>
+        </div>
+            <div class="showMessage" id="showMessage"><i class="fa-solid fa-parachute-box" id="parachute"></i></div>
+        </div>
+        <div class="main" id="main">
+            <!-- <div class="colonne">
+                    <div class="colonne1">
+                        <span><input type="text" class="nbrColone" value="Colonne1"></span>
+                    </div>
+                <div class="fleche">
+                    <button class="flecheLeft"><<</button>
+                    <input type="text" class="nbrColone" value="Colonne">
+                    <button class="flecheRight">>></button>
+                </div>
+                <i class="fa-thin fa-trash-can"></i> // supprimer
+                <i id="corbeille" class="fa-solid fa-trash"></i>
+                <i class="fa-duotone fa-trash"></i> -->
+            </div> 
+
+    <div class="menu" id="menu">Cliquez Ici<i id="affiche" class="fa-solid fa-circle-ellipsis"></i></div>
+        </div>
+    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-container" id="modal">
+                        <div class="modal">
+                            <h2>NOUVELLE TACHE</h2>
+                            <button class="close_btn" id="close">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <div class="modal-header">
+                                   <p>Remplir les informations de la nouvelle tâche</p>
+                                   <p>Tâche</p>
+                                   <form method="post" action="" id="form" >
+                                   <div class="modal-content">
+                                        
+                                          <div class="form-control">
+                                            <textarea  cols="35" rows="10" id="textarea">Entrer le libellé...</textarea>
+                                            <br>
+                                            <small>Error message</small>
+                                          </div>
+                                          
+                                           <div class="form-control">
+                                               <label for="date">Date</label>
+                                               <input type="date" id="date" name="date" value="">
+                                               <small>Error message</small>
+                                           </div>
+                                           <div class="form-control">
+                                               <label for="hour">Heure de Début</label>
+                                               <input type="time" id="time" name="time">
+                                               <small>Error message</small>
+                                           </div>
+                                           <div class="form-control">    
+                                               <label for="hour">Heure de Fin</label>
+                                               <input type="time" id="hour" name="hour">
+                                               <small>Error message</small>
+                                           </div>
+                                           <button type="button" id="submit" >Ajouter</button>
+                                        </div>
+                                    </form>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+               
+    <script src="script.js"></script>
+</body>
+</html>
